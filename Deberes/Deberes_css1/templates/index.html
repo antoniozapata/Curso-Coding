@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <!--Repasando todo lo visto desde el inicio-->
+        <head>
+            <meta charset="utf-8">
+            <title>Gálac Software - Gálac Software Oficial</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+        </head>
+        <body>
+            <header>
+                <h1>Gálac Software</h1>
+                <img src="../imagenes/baner_contacto.jpg" alt="logo galac pequeño">
+                <p>Escribenos a info@galac (Vzla) o a latintax@galac.com (Ecu), coloca tus datos de contacto y comentario y te atenderemos.</p>
+                <p>Dirección: Av. Sanatorio del Ávila, Centro Empresarial Ciudad Center, Torre C, Piso1 Urb. Boleíta Norte, Caracas 1071 - Venezuela. </p>
+                <p>Telf: (0212) 718.18.11 </p>
+                <p>RIF: J-30512543-0</p>
+            </header>
+            <main>
+                <section class="formulario">
+                <!--clase de formularios-->
+                    <h2>Formulario de Pagos</h2>
+                    <img src="../imagenes/metodos_de_pagos.jpg" alt="logo galac pequeño" id="img_metodopago">
+                    <form action="url" method="post" enctype="multipart/form-data">
+                            <div>
+                                <label for="factura">Número de Factura*</label>
+                                <input type="text" name="factura" id="factura" placeholder="Nro de factura" required>
+                            </div>
+                            <div>
+                                <label for="cliente">Nombre del Cliente*</label>
+                                <input type="text" name="cliente" id="cliente" placeholder="Nombre de cliente" required>    
+                            </div>
+                            <div>
+                                <label for="email_aliado">Email del Aliado*</label>
+                                <input type="email" name="email_aliado" id="email_aliado" placeholder="email" required>
+                            </div>
+                            <div>
+                                <label for="banco">Seleccione el banco:</label>
+                                <select id="banco" name="banco">
+                                    <option>Bankia</option>
+                                    <option>Sabadell</option>
+                                    <option>Santander</option>
+                                    <option>BBVA</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="tipo_de_pago">Tipo de Pago:</label>
+                                <select id="tipo_de_pago" name="tipo_de_pago">
+                                    <option>Transferencia</option>
+                                    <option>Depósito</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="comentario">Comentario*</label>
+                                <textarea id="comentario" name="comentario" placeholder="Comentario adicional" required></textarea>
+                            </div>
+                            <div>
+                                <label for="comprobante">Comprobante de Retención</label>
+                                <input type="file" name="archivo" id="comprobante">
+                            </div>
+                            <div>
+                                <input type="reset" value="Borrar todo">
+                            </div>
+                            <div>
+                                <button type="submit">Enviar pago</button>
+                            </div>
+                        </form>
+                </section>
+                <section class="quienessomos">
+                <!--como poner inmagenes-->
+                <img src="../imagenes/baner_quienesomos.png" alt="banner quienes somos">
+                <h2>Quienes somos</h2>
+                    <p>Gálac Software es una empresa que participa en el mercado del Software Venezolano desde el año 1991, demostrando 
+                        una exitosa experiencia, brindando soluciones oportunas a las necesidades de Contadores, Administradores, Pequeñas 
+                        y Medianas empresas; creando software financiero y tributario; manteniendo contacto permanente con los clientes, 
+                        en un ambiente de trabajo de interrelación y calidez, buscando crecimiento y bienestar de socios, empleados y 
+                        asociados. En Junio del 2007 abrió sus oficinas en Quito Ecuador expandiendo así nuestra red de soluciones al sur 
+                        de nuestras fronteras, para de esta forma proveer al mercado ecuatoriano de aplicaciones de calidad, de fácil 
+                        implementación y manejo que permitirán a sus usuarios agilizar las gestiones administrativas y tributarias de su 
+                        organización.</p>
+                </section>
+                <section>
+                <h2 class="mision">Misión</h2>
+                <p> Brindar soluciones oportunas a las necesidades de Contadores, Administradores, Pequeñas y Medianas Empresas, 
+                    creando software financiero y tributario, manteniendo contacto permanente con los clientes, en un ambiente de 
+                    trabajo de interrelación y calidez, buscando crecimiento y bienestar de socios, empleados y asociados.</p>
+                </section>
+                <section>
+                    <h2 class="vision">Visión</h2>
+                    <p>Llegar a ser la empresa líder en Venezuela en soluciones oportunas y de valor agregado en el mercado de 
+                        Software Financiero y Tributario. Fomentando alianzas con empresas a nivel Nacional e Internacional y 
+                        multiplicando a través de ellas nuestro estilo de alto contacto y calidez.</p>
+                </section>
+            </main>
+            <footer>            
+                    <hr/>
+                    <p>copyright 2019 Antonio Zapata</p>
+            </footer>
+        </body>
+        </html>
