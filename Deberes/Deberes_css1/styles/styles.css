@@ -1,4 +1,4 @@
-html{
+html {
     background-color: #F0FDF8;
     font-family: Georgia, "Times New Roman", Times, serif;
     width: 980px;
@@ -6,29 +6,29 @@ html{
     border-radius: 5px;
     text-align: justify;
 }
-header{
+header {
     background-color: #DED8D8;
     padding: 0 20px 20px 20px;
     font-size: 20px;
 }
-#img_metodopago{
+#img_metodopago {
     float: left;
 }
-.formulario{
+.formulario {
     background-color: #E6F9F2;
     padding: 0 20px 20px 20px;
     font-size: 16px;
 }
-.quienessomos{
+.quienessomos {
     background-color: #E6F9F2;
     padding: 0 20px 20px 20px;
     font-size: 16px;
 }
-.mision{
+.mision {
     background-color: #E71206;
     color: white;
 }
-.vision{
+.vision {
     background-color: #E71206;
     color: white;
 }
