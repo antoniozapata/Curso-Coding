@@ -1,0 +1,146 @@
+body {
+  background-image: url('../container_bg.png');
+  margin: 0 300px;
+}
+
+.contenedor_logogalac {
+  align-content: center; 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+  
+.imagenfrontal_galac {
+  animation-duration: 2s;
+  animation-name: entrada-logo-peq;
+  bottom: 5px;
+  position: absolute;
+  width: 15%;
+  z-index: 1;
+}
+
+.imagentrasera_galac {
+  animation-duration: 1s;
+  animation-name: entrada-logo-gra;
+  z-index: 0;
+}
+
+.galac_icono-sistema:hover {
+  box-shadow: 0 8px 15px -5px rgba(1, 1, 1, .5);
+  transform: translateY(-10px);
+}
+
+.galac_listadeprogramas {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: repeat(4, 24%);
+  grid-row-gap: 25px;
+  justify-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.galac_icono-sistema {
+  animation-duration: 1s;
+  animation-name: fade-in;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: none;
+  transition: box-shadow .2s ease-in-out,
+              transform .2s ease-in-out;
+  transform: translateY(0);
+}
+
+.contenedorimagen_sistema {
+  background: #EBEBEB;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 15px 0;
+}
+
+.galac_descripcionproducto {
+  background: #FFF;
+  border-left: 1px solid #EBEBEB;
+  border-right: 1px solid #EBEBEB;
+  border-bottom: 1px solid #EBEBEB;
+  border-radius: 5px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.galac_numerodeproducto {
+  color: #919191;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.galac_nombredeproducto {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.galac_tipo {
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 3px 0;
+  text-align: center;
+  width: calc(50% - 20px);
+}
+
+.galac_tipodeproducto {
+  display: flex;
+}
+
+.galac_tipo_empresas {
+  background: #FD7D24;
+  color: #FFF;
+}
+
+.galac_tipo_personas {
+  background: #9BCC50;
+  color: #222;
+}
+
+.galac_tipo_estudiantes {
+  background: #B97FC9;
+  color: #FFF;
+}
+
+.footer {
+  text-align: center;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes entrada-logo-gra {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrada-logo-peq {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
