@@ -1,0 +1,146 @@
+body {
+  background-image: url('../container_bg.png');
+  margin: 0 400px; /*La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen:  margin-top, margin-right, margin-bottom y margin-left.*/
+}
+
+.contenedor_logogalac {
+  align-content: center; /*La propiedad CSS align-content ajusta las líneas dentro de un contenedor flex cuando hay espacio extra en el eje transversal. Esta propiedad no tiene efecto en cajas flexibles de una sola línea.*/
+  display: flex; /*Flexbox. Diseño y posición, Propiedades principales, o comience a usar el modelo Flexbox, lo primero que debe hacer es establecer la propiedad de visualización en el contenedor.*/
+  justify-content: center; /*Alinee los elementos flexibles en el centro del contenedor:*/
+  margin-bottom: 50px; /*El margin-bottom CSS  (margen-inferior) es la propiedad de un elemento que establece el espacio requerido en la parte inferior de un elemento. Tambien se permiten valores negativos. Esta propiedad no tiene ningun efecto sobre los elementos en linea non-replaced , como <tt> o <span>.*/
+  position: relative; /*Flexbox. Propiedad de posición, la nueva posición de un elemento en relación con su posición normal.*/
+}
+  
+.imagenfrontal_galac {
+  animation-duration: 2s;
+  animation-name: entrada-logo-peq;
+  bottom: 5px; /*La propiedad bottom especifica parte de la posición de un elemento (posicionado - es decir, con una posición determinada por código).*/
+  position: absolute; /*Flexbox. El elemento se posiciona en relación con su primer elemento ancestral posicionado.*/
+  width: 15%; /*Box Model. El núcleo de la caja se define por el ancho y la altura de un elemento. Relleno y luego borde expandir las dimensiones de la caja. Además, cualquier margen que especifiquemos seguirá el borde.*/
+  z-index: 1; /*La propiedad CSS z-index indica el z-order de un elemento y sus descendientes. Cuando varios elementos se superponen, z-order determina cuales cubren a otros. Un elemento con mayor z-index generalmente cubre a otro menor.*/
+}
+
+.imagentrasera_galac {
+  animation-duration: 1s;
+  animation-name: entrada-logo-gra;
+  z-index: 0; /*La propiedad CSS z-index indica el z-order de un elemento y sus descendientes. Cuando varios elementos se superponen, z-order determina cuales cubren a otros. Un elemento con mayor z-index generalmente cubre a otro menor.*/
+}
+
+.galac_icono-sistema:hover {
+  box-shadow: 0 8px 15px -5px rgba(1, 1, 1, .5); /*La propiedad CSS box-shadow  describe uno o más efectos de sombra como una lista separada por comas. Permite proyectar una sombra difuminada en la estructura de casi cualquier elemento.*/
+  transform: translateY(-10px); /*La propiedad CSS transform te permite modificar el espacio de coordenadas del modelo de formato visual CSS. Usándola, los elementos pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos.*/
+}
+
+.galac_listadeprogramas {
+  display: grid; /*Flexbox. Diseño y posición, También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML.*/
+  grid-column-gap: 10px; /*Flexbox. Diseño y posición. La propiedad CSS grid-column-gap especifica el gutter entre grid columns.*/
+  grid-template-columns: repeat(4, 24%); /*Flexbox. La propiedad CSS grid-template-columns define el nombre de las líneas y las funciones de tamaño de línea de grid columns.*/
+  grid-row-gap: 25px; /*La propiedad CSS de separación entre filas establece el tamaño de la separación (margen) entre las filas de la cuadrícula de un elemento.*/
+  justify-items: center; /*Flexbox. La propiedad de elementos de justificación de CSS define el yo de justificación predeterminado para todos los elementos del cuadro, lo que les da a todos una forma predeterminada de justificar cada cuadro a lo largo del eje apropiado.*/
+  margin: 0 auto; /*La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen:  margin-top, margin-right, margin-bottom y margin-left.*/
+  margin-bottom: 50px; /*La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen:  margin-top, margin-right, margin-bottom y margin-left.*/
+}
+
+.galac_icono-sistema {
+  animation-duration: 1s;
+  animation-name: fade-in;
+  border-radius: 8px; /*La propiedad CSS border-radius permite a los desarrolladores Web definir qué tan redondeadas serán las esquinas. La redondez de cada esquina está definida usando uno o dos valores para el radio que define su forma dependiendo si es un círculo o una elipse*/
+  cursor: pointer; /*La propiedad CSS:cursor especifica el tipo de cursor que se mostrara cuando este se encuentre sobre un elemento.*/
+  box-shadow: none; /*La propiedad CSS box-shadow  describe uno o más efectos de sombra como una lista separada por comas. Permite proyectar una sombra difuminada en la estructura de casi cualquier elemento. Si un border-radius es especificado en un elemento con un box shadow, el box shadow asume las mismas esquinas redondeadas.*/
+  transition: box-shadow .2s ease-in-out,
+              transform .2s ease-in-out;
+  transform: translateY(0);
+}
+
+.contenedorimagen_sistema {
+  background: #EBEBEB; /*La propiedad background es un atajo para definir los valores individuales del fondo en una única regla CSS. Se puede usar background para definir los valores de una o de todas las propiedades siguientes: background-attachment, color, image, position, repeat.*/
+  border-top-right-radius: 10px; /*La propiedad CSS border-top-right-radius establece el redondeo de la esquina superior derecha del elemento. El redondeo puede ser un círculo o una elipse, o si uno de los valores es 0,no se redondeará la esquina, dejándola cuadrada.*/
+  border-top-left-radius: 10px; /*La propiedad CSS border-top-left-radius establece el redondeo de la esquina superior izquierda del elemento. El redondeo puede ser un círculo o una elipse, o si uno de los valores es 0,no se redondeará la esquina, dejándola cuadrada.*/
+  padding: 15px 0; /*La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde (border) no se permiten valores negativos. La propiedad padding es un atajo para evitar la asignación de cada lado por separado (padding-top, padding-right, padding-bottom, padding-left).*/
+}
+
+.galac_descripcionproducto {
+  background: #FFF; /*La propiedad background es un atajo para definir los valores individuales del fondo en una única regla CSS. Se puede usar background para definir los valores de una o de todas las propiedades siguientes: background-attachment, color, image, position, repeat.*/
+  border-left: 1px solid #EBEBEB; /*El borde_izquierdo es una propiedad rápida para poner el ancho, estilo y color del borde izquierdo de un elemento. Esta propiedad puede ser usada para poner los valores de uno o mas de : border-left-width, border-left-style, border-left-color. Valores omitidos son puestos a su valor inicial.*/
+  border-right: 1px solid #EBEBEB;
+  border-bottom: 1px solid #EBEBEB;
+  border-radius: 5px;
+  font-family: sans-serif; /*La propiedad font-family define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado. A diferencia de la mayoría de las propiedades CSS, los valores se separan con comas (",") para indicar que son valores alternativos.*/
+  padding: 10px; /*/*La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde (border) no se permiten valores negativos. La propiedad padding es un atajo para evitar la asignación de cada lado por separado (padding-top, padding-right, padding-bottom, padding-left).*/
+}
+
+.galac_numerodeproducto {
+  color: #919191; 
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.galac_nombredeproducto {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.galac_tipo {
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 3px 0;
+  text-align: center; /*La propiedad CSS de alineación de texto establece la alineación horizontal de un elemento de bloque o cuadro de celda de tabla. Esto significa que funciona como alineación vertical pero en la dirección horizontal.*/
+  width: calc(50% - 20px);
+}
+
+.galac_tipodeproducto {
+  display: flex; /*Flexbox. Diseño y posición, Propiedades principales, o comience a usar el modelo Flexbox, lo primero que debe hacer es establecer la propiedad de visualización en el contenedor.*/
+}
+
+.galac_tipo_empresas {
+  background: #FD7D24;
+  color: #FFF;
+}
+
+.galac_tipo_personas {
+  background: #9BCC50;
+  color: #222;
+}
+
+.galac_tipo_estudiantes {
+  background: #B97FC9;
+  color: #FFF;
+}
+
+.footer {
+  text-align: center; /*La propiedad CSS de alineación de texto establece la alineación horizontal de un elemento de bloque o cuadro de celda de tabla. Esto significa que funciona como alineación vertical pero en la dirección horizontal.*/
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes entrada-logo-gra {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrada-logo-peq {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
