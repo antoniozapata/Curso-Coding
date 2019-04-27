@@ -9,9 +9,9 @@
 .imagenfrontal_galac {
   animation-duration: 2s;
   animation-name: entrada-logo-peq;
+  width: 10%;
   bottom: 5px;
   position: absolute;
-  width: 15%;
   z-index: 1;
 }
 
@@ -28,12 +28,12 @@
 
 .galac_listadeprogramas {
   display: grid;
-  grid-column-gap: 10px;
+  grid-column-gap: 5px;
   grid-template-columns: repeat(4, 24%);
-  grid-row-gap: 25px;
+  grid-row-gap: 5px;
   justify-items: center;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .galac_icono-sistema {
@@ -45,6 +45,7 @@
   transition: box-shadow .2s ease-in-out,
               transform .2s ease-in-out;
   transform: translateY(0);
+  flex
 }
 
 .contenedorimagen_sistema {
