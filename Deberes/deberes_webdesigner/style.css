@@ -1,0 +1,154 @@
+.html {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 200px 0 200px;
+}
+
+h1 {
+    display: none;
+}
+
+.encabezado {
+    position: fixed;
+    top: 2%;
+    width: 80%;
+}
+
+.img-logo {
+    float: left;
+}
+
+.navegacionsuperior {
+    color: #58585a;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+    opacity: 0.40;
+    text-transform: uppercase;
+    float: left;
+    margin: 0 0 0 50%;
+}
+
+.titulo_negro {
+    color: #58585a;
+    font-size: 84px;
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 200px 0 20px 0;
+}
+
+.titulo_azul {
+    color: #23b8cf;
+    font-size: 84px;
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 0 0 100px 320px;
+}
+
+.parrafo1 {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+
+.parrafo2, .tipodetrabajo {
+    color: #747478;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+h2 {
+    color: #23B8CF;
+    font-family: 'Bodoni MT Black';
+    font-size: 36px;
+    font-style: normal; 
+    font-weight: 400; 
+    margin-top: 100px;
+}
+
+h3 {
+    color: #58585a;
+    font-family: 'Bodoni MT Black';
+    font-size: 56px;
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+.navegacioninferior {
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    list-style: none;
+}
+
+.piedepagina {
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+}
+
+.sigueme {
+    padding: 0;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 5px;
+}
+
+.hojadetrabajo {
+    width: 135px;
+    height: 32px;
+    padding: 6px 12px;
+    border: 0;
+    background: #23b8cf;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+}
+
+.caja-de-trabajo-izquierda, .caja-de-trabajo-derecha {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 0;
+}
+
+.parrafos-main {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, 35%);
+    grid-row-gap: 25px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.compartir-icon {
+    margin: 10px 0 50px 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.parrafos-piedepagina {
+    display: flex;
+}
+
+.pie-izquierdo {
+    float:left;
+    margin: 0 50px 0 0;
+    text-align: left;
+}
+
+.pie-derecho {
+    float:left;
+    text-align: left;
+    margin: 0 50px 0 0;
+}
+
+hr {
+    margin: 80px 0 20px 0;
+}
