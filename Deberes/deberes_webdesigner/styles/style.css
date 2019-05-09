@@ -24,12 +24,6 @@
     transition-property: color;
 }
 
-.titulo-principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .titulo_negro, .titulo_azul {
     font-size: 5.25rem;
     line-height: 60px;
@@ -168,12 +162,6 @@ a:link  {
         .encabezado:hover {
         color: blue;
         transition-property: color;
-    }
-    
-        .titulo-principal {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .titulo_negro, .titulo_azul {
@@ -323,24 +311,18 @@ a:link  {
         transition-property: color;
     }
     
-    .titulo-principal {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .titulo_negro, .titulo_azul {
+        .titulo_negro, .titulo_azul {
         font-size: 5.25rem;
         line-height: 40px;
         font-family: 'Abril Fatface', cursive;
     }
     
-    .titulo_negro {
+        .titulo_negro {
         color: #58585a;
         margin: 40px 0 15px 180px;
     }
     
-    .titulo_azul {
+        .titulo_azul {
         color: #23b8cf;
         margin: 0 0 40px 280px;
     }
@@ -355,7 +337,7 @@ a:link  {
         width: 600px;
     }
     
-.parrafo1 {
+    .parrafo1 {
         margin-left: 8px;
     }
     
