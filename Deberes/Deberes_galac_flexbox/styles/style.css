@@ -1,8 +1,11 @@
-body {
+ body {
   background-image: url('../container_bg.png');
   margin: 0 400px; /*La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen:  margin-top, margin-right, margin-bottom y margin-left.*/
 }
 
+h1 {
+  visibility: hidden;
+}
 .contenedor_logogalac {
   align-content: center; /*La propiedad CSS align-content ajusta las líneas dentro de un contenedor flex cuando hay espacio extra en el eje transversal. Esta propiedad no tiene efecto en cajas flexibles de una sola línea.*/
   display: flex; /*Flexbox. Diseño y posición, Propiedades principales, o comience a usar el modelo Flexbox, lo primero que debe hacer es establecer la propiedad de visualización en el contenedor.*/
