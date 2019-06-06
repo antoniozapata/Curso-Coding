@@ -11,7 +11,7 @@ var nombredeharving = prompt("¿Cual es tu nombre");
 var edaddeharving = prompt("¿Cual es tu edad?");
 var nombredeibrahima = prompt("¿Cual es tu nombre");
 var edaddeibrahima = prompt("¿Cual es tu edad?");
-alert(nombredevictoria + " tiene " + edaddevictoria + " años, " + nombredeantonio + " tiene " + edaddeantonio + " años, " + nombredetexy + " tiene " + edaddetexy + " años, " + nombredeharving + " tiene " + edaddeharving + " años, " + nombredeibrahima + " tiene " + edaddeibrahima + " años, ")
+alert(nombredevictoria + " tiene " + edaddevictoria + " años, " + nombredeantonio + " tiene " + edaddeantonio + " años, " + nombredetexy + " tiene " + edaddetexy + " años, " + nombredeharving + " tiene " + edaddeharving + " años, " + nombredeibrahima + " tiene " + edaddeibrahima + " años")
 
 
 
