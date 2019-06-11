@@ -10,9 +10,9 @@ Envíe el resultado a la pantalla mediante una consola como la siguiente: "NAME 
 
 let name = "Antonio";
 let age = 34;
-let maxAge = 90;
+const MAXAGE = 90;
 let numPerWeek = 7;
-let weeksForLife = (maxAge - age) * (52)
-let totalNeeded = numPerWeek * weeksForLife;
-let message = name + " tiene " + age + " años y se comera " + totalNeeded + " papas hasta la edad de " + maxAge
+const WEEKSFORLIFE = (MAXAGE - age) * (52)
+let totalNeeded = numPerWeek * WEEKSFORLIFE;
+let message = name + " tiene " + age + " años y se comera " + totalNeeded + " papas hasta la edad de " + MAXAGE
 console.log(message);
