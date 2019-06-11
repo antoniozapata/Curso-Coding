@@ -12,7 +12,8 @@ let name = "Antonio";
 let age = 34;
 let maxAge = 90;
 let numPerWeek = 7;
-let weeksForLife = (maxAge - age) * (52)
+const weeksPerYear = 52
+let weeksForLife = (maxAge - age) * (weeksPerYear)
 let totalNeeded = numPerWeek * weeksForLife;
 let message = name + " tiene " + age + " años y se comera " + totalNeeded + " papas hasta la edad de " + maxAge
 console.log(message);
