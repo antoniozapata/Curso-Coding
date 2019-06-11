@@ -6,7 +6,7 @@ Pregunte: "Los peces solo tienen tres segundos de memoria: verdadero o falso". S
 Pregunte: "La Gran Muralla China es la única estructura hecha por el hombre visible desde el espacio La Gran Muralla China: verdadero o falso". Si esa respuesta es "verdadera", se muestra "correcta", de lo contrario se muestra "incorrecta".
 Crea más preguntas verdaderas o falsas. */
 
-let points = 0;
+var points = 0;
 
 const ISTOMATOS = prompt("Tomatos are fruits, not vegetables: true or false?");
 if (ISTOMATOS === "true") {
@@ -46,3 +46,5 @@ if (GREATWALL === "true") {
   console.log('incorrecto');
   points = points - 5;
 }
+
+console.log(points)
