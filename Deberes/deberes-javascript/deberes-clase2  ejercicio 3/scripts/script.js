@@ -1,18 +1,15 @@
-/* Ejercicio 1 - La calculadora de suministro de por vida
-¿Cuántas papas comerá una persona hasta el final de su vida? ¡Descubrete!
+const preguntaEdad = "¿Cuantos años tienes?";
+const edad = prompt(preguntaEdad)
 
-Almacena la edad actual de las personas en una variable.
-Almacena una edad máxima estimada en una variable.
-Almacene una cantidad estimada por semana (como un número).
-Calcule cuántas semanas pasarán hasta el final de la vida de esta persona.
-Calcule cuántas papas se comerían en total durante el resto de su vida.
-Envíe el resultado a la pantalla mediante una consola como la siguiente: "NAME tiene NN años y se comerán NN papas hasta la edad de X". */
+// 0-18, 19-35, 36-65, 65+
 
-let name = "Antonio";
-let age = 34;
-const MAXAGE = 90;
-let numPerWeek = 7;
-const WEEKSFORLIFE = (MAXAGE - age) * (52)
-let totalNeeded = numPerWeek * WEEKSFORLIFE;
-let message = name + " tiene " + age + " años y se comera " + totalNeeded + " papas hasta la edad de " + MAXAGE
-console.log(message);
+if (edad > 0 && edad <= 18) {
+    console.log(edad);
+    alert ("¡Eres joven!");
+} else if (edad <= 35) {
+    console.log(edad);
+} else if (edad <= 65) {
+    console.log(edad);
+} else {
+    console.log(edad);
+}
