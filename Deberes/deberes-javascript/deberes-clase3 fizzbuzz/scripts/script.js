@@ -16,16 +16,16 @@ Si no entendeis el ejercicio, queréis algo de la clase de hoy u os atascáis en
 function ejercicio(number) {
     for(let i = 1; i <= number; i++) {
         if(i % 3 === 0 && i  % 5 === 0) {
-            alert("FizzBuzz!");
+            console.log("FizzBuzz!");
         }
         else if(i % 3 === 0) {
-            alert("Fizz!");            
+            console.log("Fizz!");            
         }
         else if(i % 5 === 0) {
-            alert("Buzz!");
+            console.log("Buzz!");
         }
         else {
-            alert(i)
+            console.log(i)
         }
     }
 }
