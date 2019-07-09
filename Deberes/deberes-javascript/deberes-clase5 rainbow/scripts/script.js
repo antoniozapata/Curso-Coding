@@ -4,7 +4,6 @@ contenedor.appendChild(divRed);
 
 divRed.style.backgroundColor = "red";
 
-
 const divOrange = document.createElement("div");
 contenedor.appendChild(divOrange);
 
@@ -36,3 +35,4 @@ divs.forEach((div) => {
     div.style.width = "400px";
     div.style.height = "40px";
 });
+
