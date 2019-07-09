@@ -36,3 +36,15 @@ divs.forEach((div) => {
     div.style.height = "40px";
 });
 
+<<<<<<< HEAD
+=======
+let = 0
+setInterval(() => {
+    if (i < divs.length) {
+        i++
+        divs[i].classList.toggle("visible")
+    } else {
+        i = 0
+    }
+}, 200)
+>>>>>>> 54ca375a636a4824a0ea161f315df87f676c88e3

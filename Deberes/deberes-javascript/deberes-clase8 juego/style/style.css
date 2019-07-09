@@ -1,0 +1,10 @@
+.cuerpo {
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Special Elite', cursive;
+    height: 100vh;
+    
+}
