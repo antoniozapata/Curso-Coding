@@ -1,19 +1,6 @@
-function sum() {
-    const n1 = 5;
-    const n2 = 6;
-    result = n1 + n2;
-}
-
-function substract() {
-    const n1 = 5;
-    const n2 = 6;
-    result = n1 - n2;
-}
-
-function substract() {
-    const n1 = 20;
-    const n2 = 5;
-    result = n1 / n2;
-}
-
+function calculadora(num1, num2) { 
+    num1 = document.getElementById(txtN1);
+    num2 = document.getElementById(txtN2);
+    return num1 + num2  
+    }
 
