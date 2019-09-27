@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="pokemon antonio">
+    <link rel="stylesheet" href="/styles/style-header.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>prueba tecnica pokemon</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Buscador de Pokemon</h1>
+        <nav class="nav-bar">
+            <ul class="btn-list">
+                <li><a href="./main.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+        <input type="checkbox" class="toggler">
+            <img src="../media/icon-menuh.png" alt="icon menu hamburger" class="img-burger">
+    </header>    
+    <main>
+        <section>
+            <div class="search-bar">
+                <input type="search" name="monsters-search-bar" class="mui--is-empty mui--is-dirty" id="monsters-search-bar" placeholder="Search for Pokémon" spellcheck="false"></input>
+                <label for="monsters-search-bar" class="sr-only">Search for Pokémon</label>
+            </div>
+            <ul class="monsters-list" id="monsters-list">
+                <button class="monster-sprite sprite-1"></button>
+                <h3 class="poke-name"></h3>
+            </ul>
+        </section>
+    </main>
+    <footer class="container-footer">
+        <div class="footer-info">
+            <p>All content is © Nintendo, Game Freak, and The Pokémon Company.</p>
+        </div>
+    </footer>
+    <script src="/scripts/scripts.js"></script>
+</body>
+</html>

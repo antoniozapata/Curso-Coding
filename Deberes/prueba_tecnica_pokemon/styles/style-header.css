@@ -1,0 +1,33 @@
+.nav-bar {
+    background-color: rgb(160, 64, 160);
+    position: sticky;
+}
+
+.btn-list {
+    list-style: none;
+    display: flex;
+    padding: 2rem;
+}
+
+.btn-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 1.5rem;    
+}
+
+.toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 3.50rem;
+    height: 3.50rem;
+    opacity: 0;
+}
+
+.img-burger {
+    display: none;
+}
+
