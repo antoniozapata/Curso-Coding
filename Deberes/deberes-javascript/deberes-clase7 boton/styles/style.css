@@ -1,0 +1,20 @@
+.cuerpo {
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Special Elite', cursive;
+    height: 100vh;
+    font-weight: bold;    
+}
+
+.button {
+    width: 75px;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+    font-size: 1rem;
+  }
+  

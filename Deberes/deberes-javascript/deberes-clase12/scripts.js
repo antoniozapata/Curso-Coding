@@ -19,11 +19,12 @@ const array = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '1
 // Insert an emoji of your choice between each one of the words of this sentence, generating a new String with it.
 const sentence = 'I am <Write your name here> and I love to code at MFR'
 
+
 // Using padEnd, transform all these verbs to its infinitive form
-const verbs = ['play', 'stream', 'read', 'learn', 'watch']
+const verbs = ['play', 'stream', 'read', 'learn', 'watch', 'JUGARALAPLAYCONMISAMIGOS']
 
 verbs.forEach((verbsName) => {
-  console.log(verbsName.padEnd(9,"ing  "))
+  console.log(verbsName.padEnd(verb.length + 3,"ing"))
 });
 
 // Count the words of this tongue twister
