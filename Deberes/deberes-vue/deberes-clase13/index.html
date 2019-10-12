@@ -8,32 +8,18 @@
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-   <div id="app">
-       <ul>
-           <task-item 
-           v-for="(task, index) in taskList"
-           :key="index"
-           >
-
-           </task-item>
-       </ul>
-   </div>
-   
-   
-    <!-- <div id="app">
-        Is checked: {{ isChecked }}
-        <input id="my-input" type="checkbox" v-model="isChecked">
-    </div> -->
-        <!-- <div id="app">
-        {{ message }}
-        <button @click='reverseMessage()'>Reverse message</button>
-    </div> -->
-
-    <!-- <div id="app">
+  <div id="app">
+    <input type="text" v-model="newNameTask">
+    <button @click="createTask">Crear nueva tarea</button>    
         <ul>
-            <li v-for="(task, index) in taskList" class="task-list">
-                <h6>Task number {{ index }}</h6>
+            <task-item
+            v-for="(task, index) in taskList"
+            :key="index"
+            :task="task"
+            @remove="removeTask">
+            </task-item>
+           <!--  <li v-for="(task, index) in taskList" class="task-list">
+                <h6>Task number {{ index + 1 }}</h6>
                 <p :class="{
                     'task-done': task.done
                 }">{{ task.name }}</p>
@@ -41,10 +27,9 @@
                 <label for="checkbox">Checked</label>
                 <div v-if="task.done">This task is done</div>
                 <div v-else>this task is not done</div>
-            </li>
+            </li> -->
         </ul>
-    </div> -->
-
+    </div>
 <script src="./script.js"></script>
 
 </body>
